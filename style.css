@@ -14,6 +14,7 @@ html {
 a {
   text-decoration: none;
   color: #444;
+  cursor: pointer;
 }
 
 a:hover {
@@ -134,8 +135,11 @@ button:hover {
   color: royalblue;
 }
 
+/* FOOTER */
+
 footer {
   display: flex;
+  flex-direction: column;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -149,6 +153,26 @@ footer .localisation {
   font-size: 18px;
   padding-left: 25px;
   height: 50px;
+  border-bottom: 1px solid #dadce0;
+}
+
+footer .footer-lien {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  color: #70757a;
+  font-size: 14px;
+}
+
+.footer-lien ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+footer .ico {
+  width: 8%;
+  padding-right: 5px;
 }
 
 @media only screen and (max-width: 570px) {
