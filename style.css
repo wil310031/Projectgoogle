@@ -161,8 +161,11 @@ footer .footer-lien {
   height: 40px;
   align-items: center;
   justify-content: space-between;
-  color: #70757a;
   font-size: 14px;
+}
+
+.footer-lien a {
+  color: #70757a;
 }
 
 .footer-lien ul li {
